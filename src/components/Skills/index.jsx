@@ -4,13 +4,11 @@ import { motion } from 'framer-motion'
 
 import './Skills.scss'
 
-const Skills = (/* { isDarkMode } */) => {
+const Skills = ({ isDarkMode }) => {
   return (
     <section className='skills container' id='tecnologias'>
       <div className='services-left'>
-        <span /* style={{ color: isDarkMode && '#fff' }} */>
-          Trabajo con estas
-        </span>
+        <span style={{ color: isDarkMode && '#fff' }}>Trabajo con estas</span>
         <h2>Tecnologías</h2>
         <span>
           En esta sección podras ver las tegnologías con las que he trabajado.{' '}

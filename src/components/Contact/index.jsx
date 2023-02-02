@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 
 import './Contact.scss'
 
-const Contact = (/* { isDarkMode } */) => {
+const Contact = ({ isDarkMode }) => {
   const form = useRef()
   const [sendingEmail, setSendingEmail] = useState(false)
   const [formData, setFormData] = useState({
@@ -100,11 +100,9 @@ const Contact = (/* { isDarkMode } */) => {
   }
 
   return (
-    <section className='contact container' id='contacto'>
+    <section className='contact container' name='contacto'>
       <div className='contact-left'>
-        <span /* style={{ color: isDarkMode && '#fff' }} */>
-          Trabajemos juntos
-        </span>
+        <span style={{ color: isDarkMode && '#fff' }}>Trabajemos juntos</span>
         <h2>Contacto</h2>
         <div
           className='blur contact-blur'

@@ -4,14 +4,14 @@ import Sun from '@iconscout/react-unicons/icons/uil-sun'
 
 import './Toggle.scss'
 
-const Toggle = (/* { setIsDarkMode } */) => {
+const Toggle = ({ setIsDarkMode }) => {
   const [darkMode, setDarkMode] = useState(false)
 
   const changeStyleMode = () => {
-    /* setIsDarkMode((isDarkMode) => {
+    setIsDarkMode((isDarkMode) => {
       setDarkMode(!isDarkMode)
       setIsDarkMode(!isDarkMode)
-    }) */
+    })
   }
 
   return (

@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 /* import Modal from '../Modal' */
 import './Projects.scss'
 
-const Projects = (/* { isDarkMode } */) => {
+const Projects = ({ isDarkMode }) => {
   /*  const [openModal, setOpenModal] = useState(false)
   const [project, setProject] = useState(null)
 
@@ -19,7 +19,7 @@ const Projects = (/* { isDarkMode } */) => {
 
   return (
     <section id='proyectos' className='projects container'>
-      <span /* style={{ color: isDarkMode && '#fff' }} */>Algunos de mis</span>
+      <span style={{ color: isDarkMode && '#fff' }}>Algunos de mis</span>
       <h2>Proyectos</h2>
       <p>Puedes dar click sobre un proyecto y verlo mas en profundidad</p>
       <div className='projects-items'>

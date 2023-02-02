@@ -5,7 +5,7 @@ import { Squash as Hamburger } from 'hamburger-react'
 
 import './Navbar.scss'
 
-const Navbar = (/* { setIsDarkMode } */) => {
+const Navbar = ({ setIsDarkMode }) => {
   const [isOpen, setOpen] = useState(false)
 
   const closeMenu = () => {
@@ -16,16 +16,14 @@ const Navbar = (/* { setIsDarkMode } */) => {
     <nav className='navbar container'>
       <div className='navbar-left'>
         <div className='navbar-left__name'>{`<CjDev544 />`}</div>
-        <Toggle /* setIsDarkMode={setIsDarkMode} */ />
+        <Toggle setIsDarkMode={setIsDarkMode} />
       </div>
       <div className='navbar-right'>
         <div className={`navbar-right__list ${isOpen ? 'isOpen' : ''}`}>
           <ul>
-            <li className='navbar-right__list-item'>
-              <Link to='servicios' spy={true} smooth={true} onClick={closeMenu}>
-                Servicios
-              </Link>
-            </li>
+            <Link to='servicios' spy={true} smooth={true} onClick={closeMenu}>
+              Servicios
+            </Link>
             <li className='navbar-right__list-item'>
               <Link
                 to='tecnologias'
@@ -42,7 +40,14 @@ const Navbar = (/* { setIsDarkMode } */) => {
               </Link>
             </li>
             <li className='navbar-right__list-item'>
-              <Link to='contacto' spy={true} smooth={true} onClick={closeMenu}>
+              <Link
+                to='contacto'
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                onClick={closeMenu}
+              >
                 Contacto
               </Link>
             </li>
