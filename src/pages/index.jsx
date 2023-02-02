@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import '../scss/index.scss'
 import { About } from '../components/About'
 import Services from '../components/Services'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
+import '../scss/index.scss'
 
 export default function IndexPage() {
   return (
@@ -13,6 +14,7 @@ export default function IndexPage() {
         <About />
         <Services />
         <Skills />
+        <Projects />
       </header>
       <main></main>
     </div>
