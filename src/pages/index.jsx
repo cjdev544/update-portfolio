@@ -1,19 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../scss/index.scss'
-import Footer from '../components/Footer'
+import { About } from '../components/About'
 
 export default function IndexPage() {
   return (
-    <div
-      
-    >
+    <div>
       <header>
         <Navbar />
+        <About />
       </header>
-      <main>
-      </main>      
-      <Footer />
-    </div> 
+      <main></main>
+    </div>
   )
 }
