@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../scss/index.scss'
+import Footer from '../components/Footer'
 
 export default function IndexPage() {
   return (
@@ -12,6 +13,7 @@ export default function IndexPage() {
       </header>
       <main>
       </main>      
+      <Footer />
     </div> 
   )
 }
