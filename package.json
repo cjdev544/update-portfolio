@@ -15,6 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emailjs/browser": "3.10.0",
+    "@iconscout/react-unicons": "1.1.6",
+    "framer-motion": "9.0.1",
     "gatsby": "^5.5.0",
     "gatsby-plugin-google-gtag": "^5.5.0",
     "gatsby-plugin-image": "^3.5.0",
@@ -24,8 +27,14 @@
     "gatsby-plugin-sitemap": "^6.5.0",
     "gatsby-source-filesystem": "^5.5.0",
     "gatsby-transformer-sharp": "^5.5.0",
+    "hamburger-react": "2.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.58.0"
+    "react-email-validator": "1.0.2",
+    "react-helmet": "6.1.0",
+    "react-scroll": "1.8.9",
+    "sass": "^1.58.0",
+    "sweetalert2": "11.7.1",
+    "swiper": "9.0.1"
   }
 }
