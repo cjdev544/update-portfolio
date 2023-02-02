@@ -6,19 +6,22 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import '../scss/index.scss'
+import Footer from '../components/Footer'
 
 export default function IndexPage() {
   return (
     <div>
       <header>
         <Navbar />
+      </header>
+      <main>
         <About />
         <Services />
         <Skills />
         <Projects />
         <Contact />
-      </header>
-      <main></main>
+      </main>
+      <Footer />
     </div>
   )
 }

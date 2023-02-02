@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Toggle from './components/Toggle'
 import { Link } from 'react-scroll'
 import { Squash as Hamburger } from 'hamburger-react'
+
 import './Navbar.scss'
 
 const Navbar = (/* { setIsDarkMode } */) => {

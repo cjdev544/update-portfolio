@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Moon from '@iconscout/react-unicons/icons/uil-moon'
 import Sun from '@iconscout/react-unicons/icons/uil-sun'
+
 import './Toggle.scss'
 
 const Toggle = (/* { setIsDarkMode } */) => {

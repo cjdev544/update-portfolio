@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { motion } from 'framer-motion'
+
 import './Skills.scss'
 
 const Skills = (/* { isDarkMode } */) => {

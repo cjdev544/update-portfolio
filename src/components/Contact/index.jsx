@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { validate } from 'react-email-validator'
 import Swal from 'sweetalert2'
+
 import './Contact.scss'
 
 const Contact = (/* { isDarkMode } */) => {

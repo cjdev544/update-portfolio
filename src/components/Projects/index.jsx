@@ -1,5 +1,6 @@
 import React /* { useEffect, useState } */ from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+
 /* import Modal from '../Modal' */
 import './Projects.scss'
 

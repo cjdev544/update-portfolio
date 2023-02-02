@@ -52,17 +52,6 @@ export function About(/* { isDarkMode } */) {
               alt='Linkedin'
             />
           </a>
-          <a
-            href='https://twitter.com/Jeffers27025518'
-            rel='noopener noreferrer nofollow'
-            target='_blank'
-          >
-            <StaticImage
-              src='../../images/twitter 1.png'
-              placeholder='tracedSVG'
-              alt='Twitter'
-            />
-          </a>
         </div>
       </div>
       <div className='about-right'>
