@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className='footer'>
       <StaticImage
         src='../../images/wave.png'
-        placeholder='tracedSVG'
+        placeholder='blurred'
         alt='footer'
         className='footer-background'
       />

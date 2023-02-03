@@ -35,7 +35,7 @@ export function About({ isDarkMode }) {
           >
             <StaticImage
               src='../../images/github.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Github'
             />
           </a>
@@ -46,7 +46,7 @@ export function About({ isDarkMode }) {
           >
             <StaticImage
               src='../../images/linkedin.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Linkedin'
             />
           </a>
@@ -55,17 +55,17 @@ export function About({ isDarkMode }) {
       <div className='about-right'>
         <StaticImage
           src='../../images/Vector1.png'
-          placeholder='tracedSVG'
+          placeholder='blurred'
           alt='vector 1'
         />
         <StaticImage
           src='../../images/Vector2.png'
-          placeholder='tracedSVG'
+          placeholder='blurred'
           alt='vector 2'
         />
         <StaticImage
           src='../../images/boy.png'
-          placeholder='tracedSVG'
+          placeholder='blurred'
           alt='Foto CjDev544'
         />
         <motion.div
@@ -75,7 +75,7 @@ export function About({ isDarkMode }) {
         >
           <StaticImage
             src='../../images/js.png'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='emoji con lentes'
           />
         </motion.div>
@@ -88,7 +88,7 @@ export function About({ isDarkMode }) {
         >
           <StaticImage
             src='../../images/web.png'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             className='floting-image'
             alt='Corona'
           />
@@ -107,7 +107,7 @@ export function About({ isDarkMode }) {
         >
           <StaticImage
             src='../../images/full.png'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             className='floting-image'
             alt='Mano arriba'
           />

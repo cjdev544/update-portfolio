@@ -30,7 +30,7 @@ const Project4 = () => {
         >
           <StaticImage
             src='../../../images/project4-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='clone de instagram 1'
             className='projects-img'
           />
@@ -41,7 +41,7 @@ const Project4 = () => {
         >
           <StaticImage
             src='../../../images/project4-2.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='clone de instagram 2'
             className='projects-img'
           />
@@ -107,7 +107,7 @@ const Project4 = () => {
         >
           <StaticImage
             src='../../../images/project4-3.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='clone de instagram 3'
             className='projects-img'
           />
@@ -118,7 +118,7 @@ const Project4 = () => {
         >
           <StaticImage
             src='../../../images/project4-4.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='clone de instagram 4'
             className='projects-img'
           />
@@ -137,7 +137,7 @@ const Project4 = () => {
             {showPicture === 'image1' && (
               <StaticImage
                 src='../../../images/project4-1.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='clone de instagram imagen 1'
                 className='picture-item'
               />
@@ -145,7 +145,7 @@ const Project4 = () => {
             {showPicture === 'image2' && (
               <StaticImage
                 src='../../../images/project4-2.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='clone de instagram imagen 2'
                 className='picture-item'
               />
@@ -153,7 +153,7 @@ const Project4 = () => {
             {showPicture === 'image3' && (
               <StaticImage
                 src='../../../images/project4-3.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='clone de instagram imagen 3'
                 className='picture-item'
               />
@@ -161,7 +161,7 @@ const Project4 = () => {
             {showPicture === 'image4' && (
               <StaticImage
                 src='../../../images/project4-4.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='clone de instagram imagen 4'
                 className='picture-item'
               />

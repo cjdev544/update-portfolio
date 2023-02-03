@@ -1,11 +1,11 @@
-import React /* { useEffect, useState } */ from 'react'
+import React, { useEffect, useState } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
-/* import Modal from '../Modal' */
+import Modal from '../Modal'
 import './Projects.scss'
 
 const Projects = ({ isDarkMode }) => {
-  /*  const [openModal, setOpenModal] = useState(false)
+  const [openModal, setOpenModal] = useState(false)
   const [project, setProject] = useState(null)
 
   useEffect(() => {
@@ -13,9 +13,10 @@ const Projects = ({ isDarkMode }) => {
   }, [setOpenModal])
 
   const handleClick = (projectSelected) => {
+    console.log(projectSelected)
     setProject(projectSelected)
     setOpenModal(true)
-  } */
+  }
 
   return (
     <section id='proyectos' className='projects container'>
@@ -25,50 +26,50 @@ const Projects = ({ isDarkMode }) => {
       <div className='projects-items'>
         <button
           className='projects-items__card'
-          /* onClick={() => handleClick('project1')} */
+          onClick={() => handleClick('project1')}
         >
           <StaticImage
             src='../../images/project1-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='web central food Málaga'
             className='projects-img'
           />
         </button>
         <button
           className='projects-items__card'
-          /* onClick={() => handleClick('project2')} */
+          onClick={() => handleClick('project2')}
         >
           <StaticImage
             src='../../images/project2-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='administrador central food Málaga'
             className='projects-img'
           />
         </button>
         <button
           className='projects-items__card'
-          /* onClick={() => handleClick('project3')} */
+          onClick={() => handleClick('project3')}
         >
           <StaticImage
             src='../../images/project3-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='clone de facebook'
             className='projects-img'
           />
         </button>
         <button
           className='projects-items__card'
-          /* onClick={() => handleClick('project4')} */
+          onClick={() => handleClick('project4')}
         >
           <StaticImage
             src='../../images/project4-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='clone de instagram'
             className='projects-img'
           />
         </button>
       </div>
-      {/* {openModal && <Modal project={project} setOpenModal={setOpenModal} />} */}
+      {openModal && <Modal project={project} setOpenModal={setOpenModal} />}
     </section>
   )
 }

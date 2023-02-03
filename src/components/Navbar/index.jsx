@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import Toggle from './components/Toggle'
-import { Link } from 'react-scroll'
 import { Squash as Hamburger } from 'hamburger-react'
 
+import NavItem from './components/NavItem'
 import './Navbar.scss'
 
-const Navbar = ({ setIsDarkMode }) => {
+const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   const [isOpen, setOpen] = useState(false)
+
+  const navItems = ['Servicios', 'Tecnologías', 'Proyectos', 'Contacto']
 
   const closeMenu = () => {
     setOpen(false)
@@ -21,46 +23,19 @@ const Navbar = ({ setIsDarkMode }) => {
       <div className='navbar-right'>
         <div className={`navbar-right__list ${isOpen ? 'isOpen' : ''}`}>
           <ul>
-            <Link to='servicios' spy={true} smooth={true} onClick={closeMenu}>
-              Servicios
-            </Link>
-            <li className='navbar-right__list-item'>
-              <Link
-                to='tecnologias'
-                spy={true}
-                smooth={true}
-                onClick={closeMenu}
-              >
-                Tecnologías
-              </Link>
-            </li>
-            <li className='navbar-right__list-item'>
-              <Link to='proyectos' spy={true} smooth={true} onClick={closeMenu}>
-                Proyectos
-              </Link>
-            </li>
-            <li className='navbar-right__list-item'>
-              <Link
-                to='contacto'
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Contacto
-              </Link>
-            </li>
+            {navItems.map((item) => (
+              <NavItem
+                key={item}
+                item={item}
+                isDarkMode={isDarkMode}
+                setOpen={setOpen}
+              />
+            ))}
           </ul>
         </div>
-        <Link
-          to='contacto'
-          spy={true}
-          smooth={true}
-          className='button navbar-button'
-        >
+        <a href='contacto' className='button navbar-button'>
           Contactame
-        </Link>
+        </a>
         <Hamburger
           direction='right'
           toggled={isOpen}

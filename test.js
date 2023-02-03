@@ -138,5 +138,3 @@ var Section = React.createClass({
     )
   },
 })
-
-React.render(<Section />, document.getElementById('example'))

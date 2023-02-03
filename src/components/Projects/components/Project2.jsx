@@ -30,7 +30,7 @@ const Project2 = () => {
         >
           <StaticImage
             src='../../../images/project2-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='administrador central food imagen 1'
             className='projects-img'
           />
@@ -41,7 +41,7 @@ const Project2 = () => {
         >
           <StaticImage
             src='../../../images/project2-2.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='administrador central food imagen 2'
             className='projects-img'
           />
@@ -71,7 +71,7 @@ const Project2 = () => {
         >
           <StaticImage
             src='../../../images/project2-3.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='administrador central food imagen 3'
             className='projects-img'
           />
@@ -82,7 +82,7 @@ const Project2 = () => {
         >
           <StaticImage
             src='../../../images/project2-4.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='administrador central food imagen 4'
             className='projects-img'
           />
@@ -101,7 +101,7 @@ const Project2 = () => {
             {showPicture === 'image1' && (
               <StaticImage
                 src='../../../images/project2-1.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='administrador central food imagen 1'
                 className='picture-item'
               />
@@ -109,7 +109,7 @@ const Project2 = () => {
             {showPicture === 'image2' && (
               <StaticImage
                 src='../../../images/project2-2.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='administrador central food imagen 2'
                 className='picture-item'
               />
@@ -117,7 +117,7 @@ const Project2 = () => {
             {showPicture === 'image3' && (
               <StaticImage
                 src='../../../images/project2-3.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='administrador central food imagen 3'
                 className='picture-item'
               />
@@ -125,7 +125,7 @@ const Project2 = () => {
             {showPicture === 'image4' && (
               <StaticImage
                 src='../../../images/project2-4.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='administrador central food imagen 4'
                 className='picture-item'
               />

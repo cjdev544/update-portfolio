@@ -10,13 +10,13 @@ import '../scss/index.scss'
 
 export default function IndexPage() {
   const [isDarkMode, setIsDarkMode] = useState(false)
-
+  console.log(isDarkMode)
   return (
     <div
       style={{ background: isDarkMode && '#000', color: isDarkMode && '#fff' }}
     >
       <header>
-        <Navbar setIsDarkMode={setIsDarkMode} />
+        <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       </header>
       <main>
         <About isDarkMode={isDarkMode} />

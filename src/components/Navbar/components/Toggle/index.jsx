@@ -9,6 +9,7 @@ const Toggle = ({ setIsDarkMode }) => {
 
   const changeStyleMode = () => {
     setIsDarkMode((isDarkMode) => {
+      console.log({ isDarkMode })
       setDarkMode(!isDarkMode)
       setIsDarkMode(!isDarkMode)
     })

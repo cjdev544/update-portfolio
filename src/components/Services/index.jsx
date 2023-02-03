@@ -43,7 +43,7 @@ const Services = ({ isDarkMode }) => {
           <div className='services-card'>
             <StaticImage
               src='../../images/ui.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='emoji diseño UI UX'
               className='services-card__img'
             />
@@ -63,7 +63,7 @@ const Services = ({ isDarkMode }) => {
           <div className='services-card'>
             <StaticImage
               src='../../images/prog.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='emoji Programación'
               className='services-card__img'
             />
@@ -83,7 +83,7 @@ const Services = ({ isDarkMode }) => {
           <div className='services-card'>
             <StaticImage
               src='../../images/responsive.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='emoji diseño renponsivo'
               className='services-card__img'
             />
@@ -103,7 +103,7 @@ const Services = ({ isDarkMode }) => {
         <div className='right-card'>
           <StaticImage
             src='../../images/ui.png'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='emoji diseño UI UX'
             className='services-card__img'
           />
@@ -115,7 +115,7 @@ const Services = ({ isDarkMode }) => {
         <div className='right-card'>
           <StaticImage
             src='../../images/prog.png'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='emoji Programación'
             className='services-card__img'
           />
@@ -128,7 +128,7 @@ const Services = ({ isDarkMode }) => {
         <div className='right-card'>
           <StaticImage
             src='../../images/responsive.png'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='emoji diseño renponsivo'
             className='services-card__img'
           />

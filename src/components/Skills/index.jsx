@@ -32,7 +32,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle-item'>
             <StaticImage
               src='../../images/javascript 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='JavaScript'
               className='skills-right__circle-img'
             />
@@ -41,7 +41,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle-item'>
             <StaticImage
               src='../../images/react 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='React'
               className='skills-right__circle-img'
             />
@@ -50,7 +50,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle-item'>
             <StaticImage
               src='../../images/nextJs.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='NextJs'
               className='skills-right__circle-img'
             />
@@ -59,7 +59,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle-item'>
             <StaticImage
               src='../../images/gatsby 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Gatsby'
               className='skills-right__circle-img'
             />
@@ -68,7 +68,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle-item'>
             <StaticImage
               src='../../images/nodedotjs 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='NodeJs'
               className='skills-right__circle-img'
             />
@@ -77,7 +77,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle-item'>
             <StaticImage
               src='../../images/express 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Express'
               className='skills-right__circle-img'
             />
@@ -94,7 +94,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle2-item'>
             <StaticImage
               src='../../images/html5 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='HTML'
               className='skills-right__circle2-img'
             />
@@ -103,7 +103,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle2-item'>
             <StaticImage
               src='../../images/css3 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='CSS'
               className='skills-right__circle2-img'
             />
@@ -112,7 +112,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle2-item'>
             <StaticImage
               src='../../images/sass 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Sass'
               className='skills-right__circle2-img'
             />
@@ -121,7 +121,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle2-item'>
             <StaticImage
               src='../../images/apollographql 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Apollo'
               className='skills-right__circle2-img'
             />
@@ -130,7 +130,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle2-item'>
             <StaticImage
               src='../../images/mongodb 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='MongoDB'
               className='skills-right__circle2-img'
             />
@@ -139,7 +139,7 @@ const Skills = ({ isDarkMode }) => {
           <div className='skills-right__circle2-item'>
             <StaticImage
               src='../../images/electron 1.png'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               alt='Electron'
               className='skills-right__circle2-img'
             />

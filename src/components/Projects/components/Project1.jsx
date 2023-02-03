@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+
 import XButton from '@iconscout/react-unicons/icons/uil-x'
 import './Project.scss'
 
@@ -35,7 +36,7 @@ const Project1 = () => {
         >
           <StaticImage
             src='../../../images/project1-1.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='central food málaga imagen 1'
             className='projects-img'
           />
@@ -46,7 +47,7 @@ const Project1 = () => {
         >
           <StaticImage
             src='../../../images/project1-2.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='central food málaga imagen 2'
             className='projects-img'
           />
@@ -86,7 +87,7 @@ const Project1 = () => {
         >
           <StaticImage
             src='../../../images/project1-3.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='central food málaga imagen 3'
             className='projects-img'
           />
@@ -97,7 +98,7 @@ const Project1 = () => {
         >
           <StaticImage
             src='../../../images/project1-4.jpg'
-            placeholder='tracedSVG'
+            placeholder='blurred'
             alt='central food málaga imagen 4'
             className='projects-img'
           />
@@ -116,7 +117,7 @@ const Project1 = () => {
             {showPicture === 'image1' && (
               <StaticImage
                 src='../../../images/project1-1.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='central food málaga imagen 1'
                 className='picture-item'
               />
@@ -124,7 +125,7 @@ const Project1 = () => {
             {showPicture === 'image2' && (
               <StaticImage
                 src='../../../images/project1-2.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='central food málaga imagen 2'
                 className='picture-item'
               />
@@ -132,7 +133,7 @@ const Project1 = () => {
             {showPicture === 'image3' && (
               <StaticImage
                 src='../../../images/project1-3.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='central food málaga imagen 3'
                 className='picture-item'
               />
@@ -140,7 +141,7 @@ const Project1 = () => {
             {showPicture === 'image4' && (
               <StaticImage
                 src='../../../images/project1-4.jpg'
-                placeholder='tracedSVG'
+                placeholder='blurred'
                 alt='central food málaga imagen 4'
                 className='picture-item'
               />
